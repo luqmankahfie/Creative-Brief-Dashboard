@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeopleShift Design Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <?!= include('Style.css'); ?>
+</head>
+<body>
+  <div id="app-root">
+    <div class="splash-screen" id="splash">
+      <div class="splash-logo">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" rx="12" fill="#FF5E14"/>
+          <path d="M10 34L24 14L38 34" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="14" r="3" fill="white"/>
+        </svg>
+      </div>
+      <p class="splash-title">PeopleShift Design Portal</p>
+      <div class="splash-loader">
+        <div class="splash-bar"></div>
+      </div>
+    </div>
+  </div>
+  <?!= include('App.js'); ?>
+</body>
+</html>
